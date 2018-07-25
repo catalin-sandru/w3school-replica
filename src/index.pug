@@ -1,11 +1,18 @@
-extends _component/layout/template
+extends _component/layout/template.pug
+
+block cool-config
+  -
+    var myTitle = 'Learn to code HTML, CSS and JavaScript';
+    var myDescription = 'This is a Html replica of w3schools.com';
+    var landingPage = 'Home';
+    var activeLink = '';
 
 block awesome-content
   h1 This is a replica of w3schools.com
   p I'll go through all possible elements as well as CSS
-  h2 Html
-  p The language for building web pages #[a(href="/html") Check it out!]
-  h2 Css
-  p The language for styling web pages #[a(href="/css") See awesomness happening]
+  h2 HTML
+  p The language for building web pages. #[a(href="/html") Check it out!]
+  h2 CSS
+  p The language for styling web pages. #[a(href="/css") See awesomness happening]
   h2 JavaScript
-  p The language for programing web pages #[a(href="/javascript") Discover the way up
+  p The language for programing web pages. #[a(href="/javascript") Discover the way up]

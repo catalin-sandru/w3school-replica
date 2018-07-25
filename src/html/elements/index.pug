@@ -1,0 +1,16 @@
+extends ../../_component/layout/template.pug
+
+block cool-config
+  -
+    var myTitle = 'Learn to code Html Elements for beginners';
+    var myDescription = 'An HTML element consists of a start and an end tag with the content inserted between'
+    var landingPage = 'HTML';
+    var activeLink = '/html/elements';
+
+block awesome-content
+  h1=title
+  p=description
+  h2 Example
+
+  h1 Not my first paragraph
+  p Not my first paragraph #[br] and i make use of the break tag and #[span(style="color:blue") the "span" tag].
