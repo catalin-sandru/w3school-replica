@@ -2,11 +2,16 @@ extends ../../_component/layout/template
 
 block cool-config
   -
-    var myTitle = 'Change Me';
-    var myDescription = 'Change Me';
+    var myTitle = 'JavaScript Variables';
+    var myDescription = 'JavaScript variables are containers for storing data values.';
     var landingPage = 'JavaScript';
     var activeLink = '/javascript/variables';
 
 block awesome-content
   h1=myTitle
   p=myDescription
+  p In this example, x, y, and z, are variables:
+  h5 Example
+  p var x = 5;
+  p var y = 6;
+  p var z = x + y;

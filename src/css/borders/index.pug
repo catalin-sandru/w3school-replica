@@ -2,11 +2,26 @@ extends ../../_component/layout/template
 
 block cool-config
   -
-    var myTitle = 'Change me';
-    var myDescription = 'Change me';
+    var myTitle = 'CSS Borders';
+    var myDescription = 'CSS borders can take many shapes and styles';
     var landingPage = 'CSS';
     var activeLink = '/css/borders';
 
 block awesome-content
   h1=myTitle
   p=myDescription
+  h3 CSS Borders Properties
+    p The CSS border properties allow you to specify the style, width, and color of an element's border.
+    p The border-style property specifies what kind of border to display.
+    h5 The following values are allowed:
+  ul
+  li dotted - Defines a dotted border
+  li dashed - Defines a dashed border
+  li solid - Defines a solid border
+  li double - Defines a double border
+  li groove - Defines a 3D grooved border. The effect depends on the border-color value
+  li ridge - Defines a 3D ridged border. The effect depends on the border-color value
+  li inset - Defines a 3D inset border. The effect depends on the border-color value
+  li outset - Defines a 3D outset border. The effect depends on the border-color value
+  li none - Defines no border
+  li hidden - Defines a hidden border

@@ -1,12 +1,12 @@
 doctype html
 html
-  //- - var baseUrl = 'https://localhost:3000'
-  - var baseUrl = 'https://freebiker2000.github.io/w3school-replica'
+  - var baseUrl = 'http://localhost:3000'
+  //- - var baseUrl = 'https://freebiker2000.github.io/w3school-replica'
   block cool-config
   head
     title=myTitle
     meta(name="description", content=myDescription)
-    link(rel="stylesheet", href="${baseUrl}/style.css")
+    link(rel="stylesheet", href=`${baseUrl}/style.css`)
   body
     include ../header/header
     article
